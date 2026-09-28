@@ -8,4 +8,7 @@ RUN node --version
 COPY . /app
 WORKDIR /app
 
+RUN npm install 
+EXPOSE 5006
+
 CMD ["node", "bundle.mjs"]
