@@ -3,7 +3,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "cfpbbbbb", // 替换为你的cloudflare page的名字
   "pages_build_output_dir": "build/cf_page",
-  "main": "./build/cf_page/_worker.js"
+  "main": "./build/cf_page/_worker.js",
   "compatibility_date": "2025-07-23",
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
